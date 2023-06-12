@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A11C8E42A374096007C3B34 /* kakaoauthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C8E32A374096007C3B34 /* kakaoauthApp.swift */; };
+		3A11C8E62A374096007C3B34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C8E52A374096007C3B34 /* ContentView.swift */; };
+		3A11C8E82A374097007C3B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A11C8E72A374097007C3B34 /* Assets.xcassets */; };
+		3A11C8EB2A374097007C3B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A11C8EA2A374097007C3B34 /* Preview Assets.xcassets */; };
+		3A11C8F52A374097007C3B34 /* kakaoauthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C8F42A374097007C3B34 /* kakaoauthTests.swift */; };
+		3A11C8FF2A374097007C3B34 /* kakaoauthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C8FE2A374097007C3B34 /* kakaoauthUITests.swift */; };
+		3A11C9012A374097007C3B34 /* kakaoauthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C9002A374097007C3B34 /* kakaoauthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A11C8F12A374097007C3B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A11C8D82A374096007C3B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A11C8DF2A374096007C3B34;
+			remoteInfo = kakaoauth;
+		};
+		3A11C8FB2A374097007C3B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A11C8D82A374096007C3B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A11C8DF2A374096007C3B34;
+			remoteInfo = kakaoauth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A11C8E02A374096007C3B34 /* kakaoauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakaoauth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A11C8E32A374096007C3B34 /* kakaoauthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoauthApp.swift; sourceTree = "<group>"; };
+		3A11C8E52A374096007C3B34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A11C8E72A374097007C3B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A11C8EA2A374097007C3B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A11C8F02A374097007C3B34 /* kakaoauthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoauthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A11C8F42A374097007C3B34 /* kakaoauthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoauthTests.swift; sourceTree = "<group>"; };
+		3A11C8FA2A374097007C3B34 /* kakaoauthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoauthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A11C8FE2A374097007C3B34 /* kakaoauthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoauthUITests.swift; sourceTree = "<group>"; };
+		3A11C9002A374097007C3B34 /* kakaoauthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoauthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A11C8DD2A374096007C3B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8ED2A374097007C3B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8F72A374097007C3B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A11C8D72A374096007C3B34 = {
+			isa = PBXGroup;
+			children = (
+				3A11C8E22A374096007C3B34 /* kakaoauth */,
+				3A11C8F32A374097007C3B34 /* kakaoauthTests */,
+				3A11C8FD2A374097007C3B34 /* kakaoauthUITests */,
+				3A11C8E12A374096007C3B34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A11C8E12A374096007C3B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C8E02A374096007C3B34 /* kakaoauth.app */,
+				3A11C8F02A374097007C3B34 /* kakaoauthTests.xctest */,
+				3A11C8FA2A374097007C3B34 /* kakaoauthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A11C8E22A374096007C3B34 /* kakaoauth */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C8E32A374096007C3B34 /* kakaoauthApp.swift */,
+				3A11C8E52A374096007C3B34 /* ContentView.swift */,
+				3A11C8E72A374097007C3B34 /* Assets.xcassets */,
+				3A11C8E92A374097007C3B34 /* Preview Content */,
+			);
+			path = kakaoauth;
+			sourceTree = "<group>";
+		};
+		3A11C8E92A374097007C3B34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C8EA2A374097007C3B34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A11C8F32A374097007C3B34 /* kakaoauthTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C8F42A374097007C3B34 /* kakaoauthTests.swift */,
+			);
+			path = kakaoauthTests;
+			sourceTree = "<group>";
+		};
+		3A11C8FD2A374097007C3B34 /* kakaoauthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C8FE2A374097007C3B34 /* kakaoauthUITests.swift */,
+				3A11C9002A374097007C3B34 /* kakaoauthUITestsLaunchTests.swift */,
+			);
+			path = kakaoauthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A11C8DF2A374096007C3B34 /* kakaoauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A11C9042A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauth" */;
+			buildPhases = (
+				3A11C8DC2A374096007C3B34 /* Sources */,
+				3A11C8DD2A374096007C3B34 /* Frameworks */,
+				3A11C8DE2A374096007C3B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakaoauth;
+			productName = kakaoauth;
+			productReference = 3A11C8E02A374096007C3B34 /* kakaoauth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A11C8EF2A374097007C3B34 /* kakaoauthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A11C9072A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauthTests" */;
+			buildPhases = (
+				3A11C8EC2A374097007C3B34 /* Sources */,
+				3A11C8ED2A374097007C3B34 /* Frameworks */,
+				3A11C8EE2A374097007C3B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A11C8F22A374097007C3B34 /* PBXTargetDependency */,
+			);
+			name = kakaoauthTests;
+			productName = kakaoauthTests;
+			productReference = 3A11C8F02A374097007C3B34 /* kakaoauthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A11C8F92A374097007C3B34 /* kakaoauthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A11C90A2A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauthUITests" */;
+			buildPhases = (
+				3A11C8F62A374097007C3B34 /* Sources */,
+				3A11C8F72A374097007C3B34 /* Frameworks */,
+				3A11C8F82A374097007C3B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A11C8FC2A374097007C3B34 /* PBXTargetDependency */,
+			);
+			name = kakaoauthUITests;
+			productName = kakaoauthUITests;
+			productReference = 3A11C8FA2A374097007C3B34 /* kakaoauthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A11C8D82A374096007C3B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3A11C8DF2A374096007C3B34 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3A11C8EF2A374097007C3B34 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3A11C8DF2A374096007C3B34;
+					};
+					3A11C8F92A374097007C3B34 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3A11C8DF2A374096007C3B34;
+					};
+				};
+			};
+			buildConfigurationList = 3A11C8DB2A374096007C3B34 /* Build configuration list for PBXProject "kakaoauth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A11C8D72A374096007C3B34;
+			productRefGroup = 3A11C8E12A374096007C3B34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A11C8DF2A374096007C3B34 /* kakaoauth */,
+				3A11C8EF2A374097007C3B34 /* kakaoauthTests */,
+				3A11C8F92A374097007C3B34 /* kakaoauthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A11C8DE2A374096007C3B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A11C8EB2A374097007C3B34 /* Preview Assets.xcassets in Resources */,
+				3A11C8E82A374097007C3B34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8EE2A374097007C3B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8F82A374097007C3B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A11C8DC2A374096007C3B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A11C8E62A374096007C3B34 /* ContentView.swift in Sources */,
+				3A11C8E42A374096007C3B34 /* kakaoauthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8EC2A374097007C3B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A11C8F52A374097007C3B34 /* kakaoauthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A11C8F62A374097007C3B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A11C9012A374097007C3B34 /* kakaoauthUITestsLaunchTests.swift in Sources */,
+				3A11C8FF2A374097007C3B34 /* kakaoauthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A11C8F22A374097007C3B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A11C8DF2A374096007C3B34 /* kakaoauth */;
+			targetProxy = 3A11C8F12A374097007C3B34 /* PBXContainerItemProxy */;
+		};
+		3A11C8FC2A374097007C3B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A11C8DF2A374096007C3B34 /* kakaoauth */;
+			targetProxy = 3A11C8FB2A374097007C3B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A11C9022A374097007C3B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A11C9032A374097007C3B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A11C9052A374097007C3B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoauth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A11C9062A374097007C3B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoauth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A11C9082A374097007C3B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakaoauth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakaoauth";
+			};
+			name = Debug;
+		};
+		3A11C9092A374097007C3B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakaoauth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakaoauth";
+			};
+			name = Release;
+		};
+		3A11C90B2A374097007C3B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakaoauth;
+			};
+			name = Debug;
+		};
+		3A11C90C2A374097007C3B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mingvel.kakaoauthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakaoauth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A11C8DB2A374096007C3B34 /* Build configuration list for PBXProject "kakaoauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A11C9022A374097007C3B34 /* Debug */,
+				3A11C9032A374097007C3B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A11C9042A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A11C9052A374097007C3B34 /* Debug */,
+				3A11C9062A374097007C3B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A11C9072A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A11C9082A374097007C3B34 /* Debug */,
+				3A11C9092A374097007C3B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A11C90A2A374097007C3B34 /* Build configuration list for PBXNativeTarget "kakaoauthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A11C90B2A374097007C3B34 /* Debug */,
+				3A11C90C2A374097007C3B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A11C8D82A374096007C3B34 /* Project object */;
+}
