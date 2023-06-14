@@ -21,6 +21,7 @@
 		3A11C9172A37434D007C3B34 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 3A11C9162A37434D007C3B34 /* KakaoSDKUser */; };
 		3A11C91D2A380556007C3B34 /* ShareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C91C2A380556007C3B34 /* ShareImage.swift */; };
 		3A11C91F2A380765007C3B34 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C91E2A380765007C3B34 /* MapView.swift */; };
+		3A11C9232A383D30007C3B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11C9222A383D30007C3B34 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3A11C9192A3746A1007C3B34 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		3A11C91C2A380556007C3B34 /* ShareImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImage.swift; sourceTree = "<group>"; };
 		3A11C91E2A380765007C3B34 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3A11C9222A383D30007C3B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		3A11C8E22A374096007C3B34 /* kakaoauth */ = {
 			isa = PBXGroup;
 			children = (
+				3A11C9212A383D23007C3B34 /* delegate */,
 				3A11C9202A381CFB007C3B34 /* views */,
 				3A11C9182A3745DA007C3B34 /* Info.plist */,
 				3A11C8E32A374096007C3B34 /* kakaoauthApp.swift */,
@@ -153,6 +156,14 @@
 				3A11C8E52A374096007C3B34 /* ContentView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		3A11C9212A383D23007C3B34 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3A11C9222A383D30007C3B34 /* AppDelegate.swift */,
+			);
+			path = delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 				3A11C8E62A374096007C3B34 /* ContentView.swift in Sources */,
 				3A11C91F2A380765007C3B34 /* MapView.swift in Sources */,
 				3A11C8E42A374096007C3B34 /* kakaoauthApp.swift in Sources */,
+				3A11C9232A383D30007C3B34 /* AppDelegate.swift in Sources */,
 				3A11C91D2A380556007C3B34 /* ShareImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
